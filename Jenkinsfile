@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "vssphani/my-jenkins-final"
+    imagename = "vssphani/jenkins"
     registryCredential = 'dockerCredentials'
     dockerImage = ''
   }
